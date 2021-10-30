@@ -20,7 +20,8 @@
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   </head>
-  <body class="container">
+  <body>
+    <div class='container'>
     <header class="main-header">
       <div class="brand">
         <img src="assets/img/logo.png" />
@@ -35,6 +36,11 @@
           <li><a href="#">Support</a></li>
         </ul>
       </nav>
+      <div class="menu-mobile" id="menu-mobile">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </header>
     <div class="swiper">
       <div class="swiper-wrapper">
@@ -110,6 +116,19 @@
       </div>
       <div class="swiper-pagination"></div>
     </div>
+  </div>
+  <nav class="dropdown-menu" id="dropdown-menu">
+    <img src="assets/img/nav-img.png" />
+    <div class="close-btn" id="close-btn">&times;</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Candy</a></li>
+      <li><a href="#">More</a></li>
+      <li><a href="#">Support</a></li>
+    </ul>
+  </nav>
     <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>
