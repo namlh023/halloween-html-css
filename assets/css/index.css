@@ -9,6 +9,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #fff;
   position: relative;
+  height: 100vh;
 }
 
 .container {
@@ -71,6 +72,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 5rem auto;
+  -webkit-animation: fadein 2s;
 }
 
 .main-section .main-image {
@@ -226,6 +228,10 @@ body {
 
 /* Mobile Menu */
 
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
 
 @media (max-width: 1200px) {
 
